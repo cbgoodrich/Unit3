@@ -23,6 +23,13 @@ i = 13
 while i <= 27:
     print(i)
     i = i + 2"""
+    
+i = 1
+total = 0
+while i <= 5:
+    total = total + i
+    i = i + 1
+print(total)
 
 """    
 #print the numbers from 1 to 20
