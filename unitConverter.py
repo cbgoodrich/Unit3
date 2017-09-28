@@ -31,5 +31,5 @@ while True:
     elif number == 5:
         break
     else:
-        print("Error. Try again. This time use a number between 1 and 4")
+        print("Error. Choose again")
     
