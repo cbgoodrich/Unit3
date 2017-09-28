@@ -4,6 +4,7 @@
 
 number = int(input("Enter a number: "))
 i = 1
-while number%i == 0:
-    print(number / i)
-    i += 1
+while True:
+    if number%i == 0:
+        print(number/i)
+    i +=1
