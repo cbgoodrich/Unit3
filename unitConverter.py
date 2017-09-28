@@ -7,8 +7,9 @@ while True:
     print("2) Kilgrams to pounds")
     print("3) Liters to gallons")
     print("4) Celsius to Fahrenheit")
+    print("5) Quit")
 
-    number = int(input("Choose a conversion or type 'quit': "))
+    number = int(input("Choose a conversion: "))
 
     if number == 1:
         distKM = float(input("Enter distance in kilometers: "))
@@ -27,7 +28,7 @@ while True:
         tempC = float(input("Enter a temperature in Celsius: "))
         tempF = tempC * 1.8 + 32
         print(tempC, "degrees Celsius is", tempF, "degrees Fahrenheit")
-    if str(number) == "quit":
+    elif number == 5:
         break
     else:
         print("Error. Try again. This time use a number between 1 and 4")
