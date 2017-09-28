@@ -14,5 +14,5 @@ while True:
         print("Guess lower")
     else:
         break
-    print("It only took you", guessAttempts, "tries to get it")
     guessAttempts += 1
+print("It only took you", guessAttempts, "tries to get it")
