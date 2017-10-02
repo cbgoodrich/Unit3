@@ -28,4 +28,3 @@ while centTotal >= 1:
     centTotal = centTotal - 1
     pennies += 1
 print("Pennies:", pennies)
-    
