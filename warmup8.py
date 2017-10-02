@@ -6,7 +6,8 @@ i = 1
 total = 0
 while i < 100000:
     if i%3 == 0 and i%10 == 0 and i%17 == 0:
-        print(total)
+        total += i
     i += 1
-    total += i
+print(total)
+
     
