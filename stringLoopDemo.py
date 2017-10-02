@@ -1,1 +1,8 @@
+#Charlie Goodrich
+#10/02/17
+#stringLoopDemo.py - how to loop through a string
 
+word = input("Enter a word: ")
+
+for ch in word:
+    print(ch + "!")
