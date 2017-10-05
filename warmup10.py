@@ -14,8 +14,8 @@ yellowRect = RectangleAsset(200, 33, LineStyle(1, yellow), yellow)
 
 for j in range(10):
     for i in range(10):
-        Sprite(blackRect, (0 + 250*i, 0 + 150*j))
-        Sprite(redRect, (0 + 250*i, 33 + 150*j))
-        Sprite(yellowRect, (0 + 250*i, 67 + 150*j))
-        
+        Sprite(blackRect, (0 + 233*i, 0 + 133*j))
+        Sprite(redRect, (0 + 233*i, 33 + 133*j))
+        Sprite(yellowRect, (0 + 233*i, 67 + 133*j))
+
 App().run()
