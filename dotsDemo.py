@@ -8,6 +8,8 @@ red = Color(0xFF0000, 1)
 
 dot = CircleAsset(20, LineStyle(1, red), red)
 
-for i in range(25):
-    Sprite(dot, (20 + 40*i, 20))
-    App().run()
+for j in range(13): #prints the row 13 times
+    for i in range(25): #prints one row of dots
+        Sprite(dot, (20 + 40*i, 20 + 40*j))
+
+App().run()
