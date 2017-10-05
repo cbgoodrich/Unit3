@@ -10,7 +10,11 @@ k = 0
 year = date.today().year
 month = date.today().month
 day = date.today().month
-
+year = 2017
+month = 10
+day = 13
 while fri13Counter < 10:
+    if weekday(year, month, day) == 5 and day == 13:
+        print(month + "/" + day + "/" + year)
     
     
