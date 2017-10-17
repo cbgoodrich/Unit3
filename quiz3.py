@@ -16,3 +16,8 @@ while i <= 331:
     total += i
     i += 2
 print(total)
+
+while True:
+    word = input("Enter a word: ")
+    if "z" in word:
+        break
