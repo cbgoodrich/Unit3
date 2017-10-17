@@ -19,5 +19,5 @@ print(total)
 
 while True:
     word = input("Enter a word: ")
-    if "z" in word:
+    if "z" in word or "Z" in word:
         break
