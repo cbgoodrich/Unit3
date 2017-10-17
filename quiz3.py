@@ -9,3 +9,10 @@ i = 18
 while i <= 32:
     print(i)
     i += 1
+
+i = 13
+total = 0
+while i <= 331:
+    total += i
+    i += 2
+print(total)
